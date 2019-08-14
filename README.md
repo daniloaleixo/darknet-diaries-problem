@@ -38,5 +38,9 @@ Sitemap: https://darknetdiaries.com/sitemap.xml
 
 And I can access https://darknetdiaries.com/0x784251/
 
+## Problem 5 - 0x784251/
+
+Opening the source code of the page we can see the JS function and it gives a clue that if we put "Winner takes all of what?" and click submit that browser show us "/us" which leads to https://darknetdiaries.com/us
+
 
 
