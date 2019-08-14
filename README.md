@@ -38,9 +38,19 @@ Sitemap: https://darknetdiaries.com/sitemap.xml
 
 And I can access https://darknetdiaries.com/0x784251/
 
-## Problem 5 - 0x784251/
+## Problem 5 - /0x784251
 
 Opening the source code of the page we can see the JS function and it gives a clue that if we put "Winner takes all of what?" and click submit that browser show us "/us" which leads to https://darknetdiaries.com/us
 
+
+## Problem 6 - /us
+
+We can look at the source code in find a strange function if we copy everything inside the eval() we have:
+
+```
+function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('1 3="a b c 9 8 4";1 2=6.7("d").e;k(3==2){j(i(\'/%f%0%0%g%h%n%m%l%5%0\'))}',24,24,'6E|var|input|chat|logic|69o|document|getElementById|the|see|I|fail|to|key|value|61|69|68|decodeURI|alert|if|74|61|69l'.split('|'),0,{})
+```
+
+Putting it in the console we have "var chat="I fail to see the logic";var input=document.getElementById("key").value;if(chat==input){alert(decodeURI('/%61%6E%6E%69%68%69l%61%74%69o%6E'))}". So if we put "I fail to see the logic" and click on submit that browser gives us /annihilation => https://darknetdiaries.com/annihilation
 
 
