@@ -13,9 +13,15 @@
 We can put in a board with columns A,B,C,D,E,F,G,H and lines 1 to 7, each episode gives an image that leads to /secet, as the Episode 5 is missing I suppose we have /secret, which leads to https://darknetdiaries.com/secret/
 
 
-## Problem 2 - Image 0x000000.jpg
+## Problem 2 - /secret
 
 When I downloaded the image and run tail on it, I'm able to see at the end of the file "Your move 2bd87cf22c40d4aa65a2e747ab8988a4"
 
 2bd87cf22c40d4aa65a2e747ab8988a4 seems like a hash so I run it against  https://hashkiller.co.uk/Cracker and it gives me:
 "2bd87cf22c40d4aa65a2e747ab8988a4 MD5 chessmaster" which leads to https://darknetdiaries.com/chessmaster/
+
+## Problem 2 - /chessmaster
+
+Opening the source code we can see
+<!-- The only way to patch a vulnerability is by exposing it first. How do I know you aren't a robot or anything? -->
+Tried a brute force approach to found some robot directory exposed and it gives me https://darknetdiaries.com/robots.txt
