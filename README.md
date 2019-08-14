@@ -85,3 +85,5 @@ Elliot: How do I know which one is for me?
 Leon: Dream. You gotta find out the future you're fightin' for. Sometimes you gotta close your eyes and really envision that shit, bro. If you like it, then it's beautiful; if you don't, then you might as well fade the fuck out right now.
 Ray: Did you know that Moses heard voices too? Abraham, John, Paul, Jesus. In fact, many prophets confessed to hearing voices. People like you, what you have, it can be divinity, Elliot, if you let it.
 ```
+
+The whole text seems like a AES encrypted text if it is the key could be Elliot: Existence which have 16 digits counting the :
