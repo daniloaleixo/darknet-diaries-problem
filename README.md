@@ -70,6 +70,7 @@ I could not crack it yet I just know for now that it has a lot of / and + that c
 The text it's from Mr Robot:
 
 esp2.2_init_1.asec
+```
 Elliot: Asking for help was never Darlene's strong suit, but then again is it anyone's? An admission of weakness. But you can't avoid the simple truth - the only way to patch a vulnerability is by exposing it first. The flip side being that exposing the vulnerability leaves you open for an exploit.
 Mr. Robot: You wanna unburden yourself, go jerk off. This is a road paved with your dead friends and family.
 Elliot: Annihilation is always the answer. We destroy parts of ourselves everyday. We photoshop our warts away, we edit the parts we hate about ourselves, modify the parts we think people hate. We curate our identity, carve it, distill it. Krista's wrong - annihilation is all we are.
@@ -83,4 +84,4 @@ Leon: Do you dream Elliot? You scrapin' so hard like you ain't never asked yours
 Elliot: How do I know which one is for me?
 Leon: Dream. You gotta find out the future you're fightin' for. Sometimes you gotta close your eyes and really envision that shit, bro. If you like it, then it's beautiful; if you don't, then you might as well fade the fuck out right now.
 Ray: Did you know that Moses heard voices too? Abraham, John, Paul, Jesus. In fact, many prophets confessed to hearing voices. People like you, what you have, it can be divinity, Elliot, if you let it.
-
+```
