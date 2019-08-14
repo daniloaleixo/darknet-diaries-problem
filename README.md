@@ -30,11 +30,13 @@ Tried a brute force approach to found some robot directory exposed and it gives 
 ## Problem 4 - /robots.txt
 
 We have the following:
+```
 User-agent: *
 Disallow: /js/
 Disallow: /css/
 Disallow: /0x784251/
 Sitemap: https://darknetdiaries.com/sitemap.xml
+```
 
 And I can access https://darknetdiaries.com/0x784251/
 
