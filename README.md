@@ -20,8 +20,23 @@ When I downloaded the image and run tail on it, I'm able to see at the end of th
 2bd87cf22c40d4aa65a2e747ab8988a4 seems like a hash so I run it against  https://hashkiller.co.uk/Cracker and it gives me:
 "2bd87cf22c40d4aa65a2e747ab8988a4 MD5 chessmaster" which leads to https://darknetdiaries.com/chessmaster/
 
-## Problem 2 - /chessmaster
+## Problem 3 - /chessmaster
 
 Opening the source code we can see
 <!-- The only way to patch a vulnerability is by exposing it first. How do I know you aren't a robot or anything? -->
 Tried a brute force approach to found some robot directory exposed and it gives me https://darknetdiaries.com/robots.txt
+
+
+## Problem 4 - /robots.txt
+
+We have the following:
+User-agent: *
+Disallow: /js/
+Disallow: /css/
+Disallow: /0x784251/
+Sitemap: https://darknetdiaries.com/sitemap.xml
+
+And I can access https://darknetdiaries.com/0x784251/
+
+
+
