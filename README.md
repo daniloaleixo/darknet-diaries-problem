@@ -87,3 +87,4 @@ If you like it, then it’s beautiful.
 ```
 
 Another Base 64 string, tried to use as image again but it did not work
+I could decipher it using base64 to string, but it gives a very strange binary file with a few HTTP request information, it seems like a binary communication. I discovered using hexdump that there is a part of the binary file that is a JPEG format, so I copy the hex data and there is just half of the picture, but from the extract from Mr Robot it seems /dream > http://darknetdiaries.com/dream
