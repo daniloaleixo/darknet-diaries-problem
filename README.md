@@ -125,3 +125,5 @@ It is a pure battle of two opponents, or in this case, one.
 0000130 7c 0a
 0000132
 ```
+
+The hex gives /stalemate which leads to a page saying "try again", don't know if I have to come back at /existence problem or try to solve this one (?)
