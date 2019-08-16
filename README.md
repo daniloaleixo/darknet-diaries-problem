@@ -88,3 +88,40 @@ If you like it, then it’s beautiful.
 
 Another Base 64 string, tried to use as image again but it did not work.
 I could decipher it using base64 to string, but it gives a very strange binary file with a few HTTP request information, it seems like a binary communication. I discovered using hexdump that there is a part of the binary file that is a JPEG format, so I copy the hex data within Jpeg limiters and created a binary file with it. An image shows up and there is just half of the picture, it seems like a "d" and then an "r" and the word seems to have not much characters, but from the extract from Mr Robot we can conclude that it is /dream > http://darknetdiaries.com/dream
+
+
+## Problem 9 - /dream
+
+There's a page with a quote from Mr Robot and a hexdump
+
+```
+In chess, help isn't allowed.
+That's the beauty of the game.
+You're locked into a set of moves as determined by your previous choices
+Your options dramatically changing with every decision.
+There is no lifeline.
+There is no external force at play.
+It is a pure battle of two opponents, or in this case, one.
+
+0000000 20 20 20 20 20 20 5f 5f 20 20 5f 20 20 20 20 20
+0000010 20 20 20 5f 20 20 20 20 20 20 20 20 20 20 20 20
+0000020 20 20 20 20 20 20 20 20 20 20 5f 20 20 20 20 20
+0000030 20 20 0a 20 20 20 20 20 2f 20 2f 20 7c 20 7c 20
+0000040 20 20 20 20 20 7c 20 7c 20 20 20 20 20 20 20 20
+0000050 20 20 20 20 20 20 20 20 20 20 20 20 7c 20 7c 20
+0000060 20 20 20 20 20 0a 20 20 20 20 2f 20 2f 5f 5f 7c
+0000070 20 7c 5f 20 5f 5f 20 5f 7c 20 7c 20 5f 5f 5f 20
+0000080 5f 20 5f 5f 20 5f 5f 5f 20 20 20 5f 5f 20 5f 7c
+0000090 20 7c 5f 20 5f 5f 5f 20 0a 20 20 20 2f 20 2f 20
+00000a0 5f 5f 7c 20 5f 5f 2f 20 5f 60 20 7c 20 7c 2f 20
+00000b0 5f 20 5c 20 27 5f 20 60 20 5f 20 5c 20 2f 20 5f
+00000c0 60 20 7c 20 5f 5f 2f 20 5f 20 5c 0a 20 20 2f 20
+00000d0 2f 5c 5f 5f 20 5c 20 7c 7c 20 28 5f 7c 20 7c 20
+00000e0 7c 20 20 5f 5f 2f 20 7c 20 7c 20 7c 20 7c 20 7c
+00000f0 20 28 5f 7c 20 7c 20 7c 7c 20 20 5f 5f 2f 0a 20
+0000100 2f 5f 2f 20 7c 5f 5f 5f 2f 5c 5f 5f 5c 5f 5f 2c
+0000110 5f 7c 5f 7c 5c 5f 5f 5f 7c 5f 7c 20 7c 5f 7c 20
+0000120 7c 5f 7c 5c 5f 5f 2c 5f 7c 5c 5f 5f 5c 5f 5f 5f
+0000130 7c 0a
+0000132
+```
