@@ -131,5 +131,6 @@ Actually I hexdumped the image in the /stalemate page and transform the hex in t
 
 I continue in this process until https://darknetdiaries.com/stalemate/stalemate/stalemate/stalemate/stalemate/ that has a simple "who won?" and nothing else in the page.
 
+But if I go back at the https://darknetdiaries.com/stalemate/stalemate/stalemate/stalemate/ page there is something wrong with the image it is not showing in the chrome preview 
 
 
