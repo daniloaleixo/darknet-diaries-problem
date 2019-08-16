@@ -127,3 +127,9 @@ It is a pure battle of two opponents, or in this case, one.
 ```
 
 The hex gives /stalemate which leads to a page saying "try again", don't know if I have to come back at /existence problem or try to solve this one (?)
+Actually I hexdumped the image in the /stalemate page and transform the hex in text and right in the beginning there's /stalemate/stalemate that leads to another "error" page and I hexdumped this image too and there's /stalemate/stalemate/stalemate in the beginning too.
+
+I continue in this process until https://darknetdiaries.com/stalemate/stalemate/stalemate/stalemate/stalemate/ that has a simple "who won?" and nothing else in the page.
+
+
+
