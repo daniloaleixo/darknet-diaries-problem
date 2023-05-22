@@ -12,7 +12,7 @@
 
 We can put in a board with columns A,B,C,D,E,F,G,H and lines 1 to 7, each episode gives an image that leads to /secet, as the Episode 5 is missing I suppose we have /secret, which leads to https://darknetdiaries.com/secret/
 
-
+![](/images/darknetdaries-secret.png)
 
 <br>
 
