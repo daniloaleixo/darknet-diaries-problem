@@ -1,6 +1,6 @@
 # Solving Darknet Diaries Problem
 
-## Problem 1 - Podcast Easter Egg
+## Problem 1 - Podcast Easter Egg (unsolved)
 
 * Episode 1: A voice say the following: B2 A1 E5 G7 C3 H8 D4 F6 E5
 * Episode 2: Morse code that gives: A1 A5 A6 B1 B4 B7 C1 C4 C7 D2 D3 D6
@@ -16,7 +16,7 @@ We can put in a board with columns A,B,C,D,E,F,G,H and lines 1 to 7, each episod
 
 <br>
 
-## Problem 2 - /dream
+## Problem 2 - /dream (unsolved)
 When you visit https://darknetdiaries.com/dream/, you will find the following:
 
 ```
